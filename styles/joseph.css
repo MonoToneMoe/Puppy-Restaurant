@@ -1,0 +1,4 @@
+.section1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
