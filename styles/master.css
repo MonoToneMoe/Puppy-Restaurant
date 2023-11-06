@@ -1,0 +1,23 @@
+@font-face { font-family:Fugaz One; src: url("../fonts/FugazOne-Regular.ttf"); }
+
+body {
+    background-image: url("../assets/bgtexture.jpg");
+}
+
+.nav-link {
+    font-family: 'Fugaz One', sans-serif;
+    color: #5F002B;
+    margin-right: 1rem;
+}
+
+.navbar {
+    padding-left: 10%;
+    padding-right: 128px;
+}
+
+#navbarNav {
+    /* display: flex; */
+    justify-content: end;
+    font-size: 20px;
+    
+}
