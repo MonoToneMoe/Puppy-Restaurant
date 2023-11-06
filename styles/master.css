@@ -6,11 +6,18 @@ body {
 
 .nav-link {
     font-family: 'Fugaz One', sans-serif;
-    color: ;
+    color: #5F002B;
+    margin-right: 1rem;
+}
+
+.navbar {
+    padding-left: 10%;
+    padding-right: 128px;
 }
 
 #navbarNav {
-    display: flex;
+    /* display: flex; */
     justify-content: end;
     font-size: 20px;
+    
 }
