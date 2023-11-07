@@ -1,5 +1,5 @@
 @font-face { font-family:Fugaz One; src: url("../fonts/FugazOne-Regular.ttf"); }
-@font-face { font-family:Montauk-Regular; src: url("../fonts/Montauk-Regular.otf"); }
+@font-face { font-family:Montauk-Regular; src: url("../fonts/Montauk-Light.otf"); }
 
 
 /*About Sections*/
@@ -85,10 +85,85 @@
 
 /*Catering Sections*/
 
-.cateringOverallSection
+.catering{
+    display: grid;
+    grid-template-rows: 80px 86px 500px 90px 366px 99px 357px;
+}
+
+.cateringHeader{
+    background-color: white;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cateringHeader * {
+    color: #5F002B;
+    font-size: 50px;
+    font-family: Fugaz One;
+}
+
+.cateringHero{
+    grid-row: 3;
+}
+
+.cateringHero *{
+    width: 100%;
+    overflow: hidden;
+}
+
+.cateringMain{
+    grid-row: 5;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 415fr 16px 585fr;
+}
 
 
+.cateringMain .photo{
+    grid-column: 1;
+}
 
+.cateringMain .photo *{
+    width: 100%;
+    overflow: hidden;
+}
+
+.cateringMain .description{
+    grid-column: 3;
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 41px;
+    padding-bottom: 25px;
+}
+
+.cateringMain .description .title{
+    
+    color: #5F002B;
+    font-size: 30px;
+    line-height: 1.46;
+    font-family: Fugaz One;
+}
+
+.cateringMain .description .paragraph{
+    color: #5F002B;
+    font-size: 20px;
+    line-height: 1.1;
+    font-family: Montauk-Regular;
+}
+
+.cateringGallery{
+    grid-row: 7;
+    display: grid;
+    grid-template-columns: 1fr 16px 1fr 16px 1fr;
+}
+
+.cateringGallery *{
+    width: 100%;
+    overflow: hidden;
+}
 
 
 
