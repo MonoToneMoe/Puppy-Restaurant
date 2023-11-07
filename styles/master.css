@@ -9,6 +9,11 @@ body {
     color: #5F002B;
 }
 
+.navbar {
+    padding-left: 10%;
+    padding-right: 128px;
+}
+
 #navbarNav {
     display: flex;
     justify-content: end;
