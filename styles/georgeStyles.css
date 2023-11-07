@@ -1,0 +1,7 @@
+.header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 37.5em;
+    background-image: url(../assets/homeHero.jpg);
+    background-size: cover;
+  }

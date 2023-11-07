@@ -1,4 +1,5 @@
 @font-face { font-family:Fugaz One; src: url("../fonts/FugazOne-Regular.ttf"); }
+@font-face { font-family:Montauk-Regular; src: url("../fonts/Montauk-Regular.otf"); }
 
 body {
     background-image: url("../assets/bgtexture.jpg");
@@ -20,4 +21,18 @@ body {
     justify-content: end;
     font-size: 20px;
     
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr 1fr;
+    padding: 44px 7.3%; 
+}
+
+.footer .text{
+    color: #5F002B;
+    font-family: Montauk-Regular;
+    font-size: 20px;
+    line-height: 1.1;
 }
