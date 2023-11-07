@@ -1,18 +1,21 @@
 @font-face { font-family:Fugaz One; src: url("../fonts/FugazOne-Regular.ttf"); }
 @font-face { font-family:Montauk-Regular; src: url("../fonts/Montauk-Regular.otf"); }
 
-.section1{
+
+/*About Sections*/
+
+.aboutSection1{
     display: grid;
     grid-template-columns: 42% 58%;
     padding:44px 7.3%;
 }
 
-.sectionItem1_1{
+.aboutSectionItem1_1{
     grid-column: 1;
     width: 100%;
 }
 
-.sectionItem1_2{
+.aboutSectionItem1_2{
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -21,28 +24,28 @@
     padding-right: 64px;
 }
 
-.sectionItem1_2_Title{
+.aboutSectionItem1_2_Title{
     color: #5F002B;
     font-family: Fugaz One;
     font-size: 50px;
     line-height: 1.1;
 }
 
-.sectionItem1_2_Paragraph{
+.aboutSectionItem1_2_Paragraph{
     color: #5F002B;
     font-family: Montauk-Regular;
     font-size: 20px;
     line-height: 1.26;
 }
 
-.section2{
+.aboutSection2{
     display: grid;
     grid-template-columns: 1fr 16px 1fr 16px 1fr;
     grid-template-rows: 80px 34px 732px 20px 732px;
     padding: 44px 7.3%; 
 }
 
-.sectionItem2_1{
+.aboutSectionItem2_1{
     background-color: white;
     grid-row: 1;
     grid-column: 1/spans;
@@ -51,19 +54,19 @@
     align-items: center;
 }
 
-.sectionItem2_1 * {
+.aboutSectionItem2_1 * {
     color: #5F002B;
     font-size: 30px;
     font-family: Fugaz One;
 }
 
-.sectionItem2_2-7{
+.aboutSectionItem2_2-7{
     background-color: white;
     display: flex;
     flex-direction: column;
 }
 
-.sectionItem2_2-7 .title{
+.aboutSectionItem2_2-7 .title{
     color: #5F002B;
     font-size: 30px;
     font-family: Fugaz One;
@@ -71,13 +74,38 @@
     padding-top: 13px;
 }
 
-.sectionItem2_2-7 .description{
+.aboutSectionItem2_2-7 .description{
     color: #5F002B;
     font-size: 20px;
     font-family: Montauk-Regular;
     line-height: 1.1;
     padding: 0px 30px ;
 }
+
+
+/*Catering Sections*/
+
+.cateringOverallSection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer{
     display: grid;
