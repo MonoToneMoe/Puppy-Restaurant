@@ -1,5 +1,7 @@
 @font-face { font-family:Fugaz One; src: url("../fonts/FugazOne-Regular.ttf"); }
 @font-face { font-family:Montauk-Regular; src: url("../fonts/Montauk-Regular.otf"); }
+@font-face { font-family:Montauk-Light; src: url("../fonts/Montauk-Light.otf"); }
+
 
 body {
     background-image: url("../assets/bgtexture.jpg");
