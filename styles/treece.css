@@ -1,0 +1,11 @@
+@font-face { font-family:Fugaz One; src: url("../fonts/FugazOne-Regular.ttf"); }
+
+.bkGround {
+    background-color: white;
+}
+
+.txtColor {
+    color: #5F002B;
+    font-family: Fugaz One, sans-serif;
+}
+
