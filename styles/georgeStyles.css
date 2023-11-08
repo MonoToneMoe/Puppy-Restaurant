@@ -1,3 +1,6 @@
+@font-face { font-family:Fugaz One; src: url("../fonts/FugazOne-Regular.ttf"); }
+@font-face { font-family:Montauk-Regular; src: url("../fonts/Montauk-Light.otf"); }
+
 .header {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -6,3 +9,21 @@
     background-image: url(../assets/homeHero.jpg);
     background-size: cover;
   }
+  .photos{
+    display: grid;
+    grid-template-rows: 80px;
+}
+
+.photosHeader{
+    background-color: white;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photosHeader * {
+    color: #5F002B;
+    font-size: 50px;
+    font-family: Fugaz One;
+}
