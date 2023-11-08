@@ -1,15 +1,23 @@
 @font-face { font-family:Fugaz One; src: url("../fonts/FugazOne-Regular.ttf"); }
+@font-face { font-family:Montauk; src: url("../fonts/Montauk-Regular.otf");}
+
 
 .bkGround {
     background-color: white;
     /* margin: 7.3%; */
-    margin-left: 10%;
-    margin-right: 10%;
+   /* margin-left: 10%;
+    margin-right: 10%; */
 }
 
 .txtColor {
     color: #5F002B;
     font-family: Fugaz One, sans-serif;
+}
+
+.fntFace {
+    color: #5F002B;
+    font-family: Montauk, sans-serif;
+    
 }
 
 .menu{
@@ -23,4 +31,9 @@
     grid-row: 1;
     grid-column: 1;
     width: 100%;
+}
+
+.edges {
+    border-radius: 0px;
+    border: 0px;
 }
