@@ -20,6 +20,10 @@
     
 }
 
+.font {
+    color: #5F002B;
+}
+
 .menu{
     display: grid;
     grid-template-columns: 1fr 16px 1fr;
