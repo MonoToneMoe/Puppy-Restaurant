@@ -104,6 +104,7 @@ body {
     .footer .location4{
         grid-row: 2;
         display: flex;
+        justify-self: end;
         align-self: end;
     }
 }
