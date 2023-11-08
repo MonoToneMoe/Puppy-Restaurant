@@ -26,16 +26,122 @@ body {
     
 }
 
-.footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-row: 1fr 1fr;
-    padding: 44px 7.3%; 
+@media only screen and (min-width: 1920px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row: 1fr 1fr;
+        padding: 44px 7.3%;
+    }
+    
+    .footer .text {
+        color: #5F002B;
+        font-family: Montauk-Regular;
+        font-size: 20px;
+        line-height: 1.1;
+    }
+
+    .footer .location1{
+        grid-row: 1;
+        display: flex;
+        align-self: end;
+    }
+
+    .footer .location2{
+        grid-row: 2;
+        display: flex;
+        align-self: end;
+    }
+
+    .footer .location3{
+        grid-row: 1;
+        display: flex;
+        align-self: end;
+        justify-self: end;
+    }
+
+    .footer .location4{
+        grid-row: 2;
+        display: flex;
+        align-self: end;
+        justify-self: end;
+    }
 }
 
-.footer .text{
-    color: #5F002B;
-    font-family: Montauk-Regular;
-    font-size: 20px;
-    line-height: 1.1;
+@media only screen and (min-width: 768px) and (max-width: 1919px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 35px 35px;
+        padding: 33px 7.3%;
+    }
+    
+    .footer .text {
+        color: #5F002B;
+        font-family: Montauk-Regular;
+        font-size: 18px;
+        line-height: 1.1;
+    }
+
+    .footer .location1{
+        grid-row: 1;
+        display: flex;
+        align-self: end;
+    }
+
+    .footer .location2{
+        grid-row: 2;
+        display: flex;
+        align-self: end;
+    }
+
+    .footer .location3{
+        grid-row: 1;
+        display: flex;
+        justify-self: end;
+    }
+
+    .footer .location4{
+        grid-row: 2;
+        display: flex;
+        align-self: end;
+    }
 }
+
+@media only screen and (max-width: 767px) {
+    .footer {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 100%;
+        padding: 22px 7.3%;
+        
+    }
+    
+    .footer .text {
+        color: #5F002B;
+        font-family: Montauk-Regular;
+        font-size: 15px;
+        line-height: 1.1;
+        text-align: center;
+    }
+
+    .footer .location1{
+        grid-row: 1;
+    }
+
+    .footer .location2{
+        grid-row: 2;
+    }
+
+    .footer .location3{
+        grid-row: 4;
+        display: flex;
+        justify-self: center;
+
+    }
+
+    .footer .location4{
+        grid-row: 3;
+    }
+}
+
