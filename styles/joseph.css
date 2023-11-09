@@ -256,11 +256,8 @@
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
-    /* navbar */
+
     
-    .navImage{
-        width: 50%;
-    }
     /* About */
     .aboutSection1 {
         display: grid;
