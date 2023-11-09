@@ -264,7 +264,7 @@
     /* About */
     .aboutSection1 {
         display: grid;
-        grid-template-rows: 15% 1fr;
+        grid-template-rows: max-content max-content;
         padding: 15px 7.3%;
     }
 
