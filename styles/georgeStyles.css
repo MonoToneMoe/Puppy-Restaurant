@@ -43,9 +43,33 @@
         float: none; 
         margin-bottom: 0.75rem;
     }
+    .mSG-md {
+        font-size: 40px; font-family:Fugaz One; color: #5F002B;
+      }
+    .ct {
+        font-size: 2vw; font-family:Montauk-light; color: #5F002B; margin-bottom: 3rem;
+    }
   }
   @media only screen and (min-width: 991px) {
   .photo-card {
     width: 398px; border-radius: 0; margin: auto; float: none; margin-bottom: 0.75rem;
   }
+  .mSG {
+    font-size: 50px; font-family:Fugaz One; color: #5F002B;
+  }
+  .card-body {
+    margin-left: 2.5rem; margin-right: 2.5rem;
+  }
+  .ct {
+    font-size: 1vw; font-family:Montauk-light; color: #5F002B; margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+    .mSG-sm {
+        font-size: 20px; font-family:Fugaz One; color: #5F002B;
+      }
+      .ct {
+        font-size: 3vw; font-family:Montauk-light; color: #5F002B; margin-bottom: 3rem;
+      }
 }
