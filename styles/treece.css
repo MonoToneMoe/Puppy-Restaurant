@@ -14,12 +14,6 @@
     font-family: Fugaz One, sans-serif;
 }
 
-.fntFace {
-    color: #5F002B;
-    font-family: Montauk, sans-serif;
-    font-size: 20px;
-}
-
 .fntName {
     color: #5F002B;
     font-family: Montauk, sans-serif;
@@ -43,7 +37,28 @@
     width: 100%;
 }
 
+.menu .header * {
+    color: #5F002B;
+    font-size: 50px;
+    font-family: Fugaz One;
+}
+
 .edges {
     border-radius: 0px;
     border: 0px;
+}
+
+.subtitle{
+    color: #5F002B;
+    font-size: 10px;
+    font-family: Montauk-Regular;
+    line-height: 20px;
+}
+
+
+.foodItemAndPrice{
+    color: #5F002B;
+    font-size: 17px;
+    font-family: Montauk-Regular;
+    line-height: 20px;
 }
