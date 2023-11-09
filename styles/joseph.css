@@ -129,7 +129,9 @@
     .aboutSection1 {
         display: grid;
         grid-template-rows: 40% auto;
-        padding: 44px 7.3%;
+        padding-top: 44px;
+        padding-left: 7.3%;
+        padding-right: 7.3%;;
     }
 
     .aboutSectionItem1_2 {
@@ -143,7 +145,7 @@
     .aboutSection2 {
         display: grid;
         grid-template-columns: 49% 2% 49%;
-        grid-template-rows: 80px 34px 1fr 20px 1fr 20px 1fr;
+        grid-template-rows: 80px 1rem max-content 20px max-content 20px 1fr;
         padding: 44px 7.3%;
     }
 
@@ -254,11 +256,16 @@
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
-
+    /* navbar */
+    
+    .navImage{
+        width: 50%;
+    }
+    /* About */
     .aboutSection1 {
         display: grid;
-        grid-template-rows: 15% 1fr;
-        padding: 44px 7.3%;
+        grid-template-rows: max-content max-content;
+        padding: 15px 7.3%;
     }
 
     .aboutSectionItem1_2 {
@@ -272,8 +279,8 @@
     .aboutSection2 {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 80px 34px 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr;
-        padding: 44px 7.3%;
+        grid-template-rows: 80px 1rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr;
+        padding: 15px 7.3%;
     }
 
     .aboutSection2 .location1 {
