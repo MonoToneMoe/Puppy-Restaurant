@@ -2,6 +2,7 @@
 @font-face { font-family:Montauk-Regular; src: url("../fonts/Montauk-Regular.otf"); }
 @font-face { font-family:Montauk-Light; src: url("../fonts/Montauk-Light.otf"); }
 
+/* General CSS */
 
 body {
     background-image: url("../assets/bgtexture.jpg");
@@ -150,3 +151,503 @@ body {
     }
 }
 
+
+
+
+/* -------------------------------------------------------------------------------- */
+/* George CSS Goes Here */
+
+/* -------------------------------------------------------------------------------- */
+/* Treece's CSS Goes Here */
+
+/* -------------------------------------------------------------------------------- */
+/* Joseph's CSS Goes Here */
+
+/*About Sections*/
+
+/* Desktop */
+@media only screen and (min-width: 1920px) {
+
+    /* About Section */
+    .aboutSection1 {
+        display: grid;
+        grid-template-columns: 42% 58%;
+        padding: 44px 7.3%;
+    }
+
+    .aboutSectionItem1_2 {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        padding: 30px 40px;
+        padding-right: 64px;
+    }
+
+    .aboutSection2 {
+        display: grid;
+        grid-template-columns: 32.68% 0.98% 32.68% 0.98% 32.68%;
+        grid-template-rows: 80px 34px 732px 20px 732px;
+        padding: 44px 7.3%;
+    }
+
+    .aboutSection2 .location1 {
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+    .aboutSection2 .location2 {
+        grid-row: 3;
+        grid-column: 3;
+    }
+
+    .aboutSection2 .location3 {
+        grid-row: 3;
+        grid-column: 5;
+    }
+
+    .aboutSection2 .location4 {
+        grid-row: 5;
+        grid-column: 1;
+    }
+
+    .aboutSection2 .location5 {
+        grid-row: 5;
+        grid-column: 3;
+    }
+
+    .aboutSection2 .location6 {
+        grid-row: 5;
+        grid-column: 5;
+    }
+
+    /* Catering */
+
+    .catering {
+        display: grid;
+        grid-template-rows: 80px 86px max-content 90px max-content 99px max-content;
+    }
+
+    .cateringHero {
+        grid-row: 3;
+    }
+    
+    .cateringHero * {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .cateringMain {
+        grid-row: 5;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 700fr 16px 950fr;
+
+    }
+
+    .cateringMain .photo {
+        grid-column: 1;
+    }
+
+    .cateringMain .photo * {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .cateringMain .description {
+        grid-column: 3;
+        background-color: white;
+        padding-top: 15px;
+        padding-left: 40px;
+        padding-right: 41px;
+        padding-bottom: 20px;
+        overflow: hidden;
+    }
+
+    .cateringGallery {
+        grid-row: 7;
+        display: grid;
+        grid-template-columns: 1fr 16px 1fr 16px 1fr;
+    }
+
+    .cateringGallery .location1{
+        grid-column: 1;
+    }
+
+    .cateringGallery .location2{
+        grid-column: 3;
+    }
+
+    .cateringGallery .location3{
+        grid-column: 5;
+    }
+
+    
+    .cateringGallery .location4{
+        display: none;
+    }
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1919px) {
+    .aboutSection1 {
+        display: grid;
+        grid-template-rows: 40% auto;
+        padding-top: 44px;
+        padding-left: 7.3%;
+        padding-right: 7.3%;;
+    }
+
+    .aboutSectionItem1_2 {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 40px;
+        padding-right: 64px;
+    }
+
+    .aboutSection2 {
+        display: grid;
+        grid-template-columns: 49% 2% 49%;
+        grid-template-rows: 80px 1rem max-content 20px max-content 20px 1fr;
+        padding: 44px 7.3%;
+    }
+
+    .aboutSection2 .location1 {
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+    .aboutSection2 .location2 {
+        grid-row: 3;
+        grid-column: 3;
+    }
+
+    .aboutSection2 .location3 {
+        grid-row: 5;
+        grid-column: 1;
+    }
+
+    .aboutSection2 .location4 {
+        grid-row: 5;
+        grid-column: 3;
+    }
+
+    .aboutSection2 .location5 {
+        grid-row: 7;
+        grid-column: 1;
+    }
+
+    .aboutSection2 .location6 {
+        grid-row: 7;
+        grid-column: 3;
+    }
+
+    /* Catering */
+
+    .catering {
+        display: grid;
+        grid-template-rows: 80px 43px max-content 45px max-content 50px max-content;
+        ;
+    }
+
+    .cateringHero {
+        grid-row: 3;
+    }
+    
+    .cateringHero * {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .cateringMain {
+        grid-row: 5;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 415fr 16px 585fr;
+    }
+
+
+    .cateringMain .photo {
+        display: none;
+    }
+
+    .cateringMain .photo * {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .cateringMain .description {
+        grid-column: 1/spans;
+        background-color: white;
+        padding-top: 30px;
+        padding-left: 40px;
+        padding-right: 41px;
+        padding-bottom: 25px;
+    }
+
+    .cateringGallery {
+        grid-row: 7;
+        display: grid;
+        grid-template-columns: 1fr 16px 1fr;
+        grid-template-rows: 1fr 16px 1fr;
+    }
+
+    .cateringGallery .location1{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .cateringGallery .location2{
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .cateringGallery .location3{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .cateringGallery .location4{
+        grid-column: 3;
+        grid-row: 3;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+
+    
+    /* About */
+    .aboutSection1 {
+        display: grid;
+        grid-template-rows: max-content max-content;
+        padding: 15px 7.3%;
+    }
+
+    .aboutSectionItem1_2 {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 40px;
+        padding-right: 64px;
+    }
+
+    .aboutSection2 {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 80px 1rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr 2rem 1fr;
+        padding: 15px 7.3%;
+    }
+
+    .aboutSection2 .location1 {
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+    .aboutSection2 .location2 {
+        grid-row: 5;
+        grid-column: 1;
+    }
+
+    .aboutSection2 .location3 {
+        grid-row: 7;
+        grid-column: 1;
+    }
+
+    .aboutSection2 .location4 {
+        grid-row: 9;
+        grid-column: 1;
+    }
+
+    .aboutSection2 .location5 {
+        grid-row: 11;
+        grid-column: 1;
+    }
+
+    .aboutSection2 .location6 {
+        grid-row: 13;
+        grid-column: 1;
+    }
+
+    /* Catering */
+
+    .catering {
+        display: grid;
+        grid-template-rows: 80px 30px max-content 30px max-content 30px max-content;
+    }
+
+    .cateringHero {
+        grid-row: 3;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+    }
+    
+    .cateringHero * {
+        width: 200%;
+        justify-self: center;
+    }
+
+    .cateringMain {
+        grid-row: 5;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 415fr 16px 585fr;
+    }
+
+
+    .cateringMain .photo {
+        grid-column: 1;
+        display: none;
+    }
+
+    .cateringMain .photo * {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .cateringMain .description {
+        grid-column: 1/spans;
+        background-color: white;
+        padding-top: 30px;
+        padding-left: 40px;
+        padding-right: 41px;
+        padding-bottom: 25px;
+    }
+
+
+    .cateringGallery {
+        grid-row: 7;
+        display: grid;
+        grid-template-rows: 1fr 16px 1fr 16px 1fr 16px 1fr;
+    }
+
+    .cateringGallery .location1{
+        grid-row: 3;
+    }
+
+    .cateringGallery .location2{
+        grid-row: 5;
+    }
+
+    .cateringGallery .location3{
+        grid-row: 7;
+    }
+    
+    .cateringGallery .location4{
+        grid-row: 1;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+.aboutSectionItem1_1 {
+    grid-column: 1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.aboutSectionItem1_2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 15px; */
+    padding: 30px 40px;
+    padding-right: 64px;
+}
+
+.aboutSectionItem1_2_Title {
+    color: #5F002B;
+    font-family: Fugaz One;
+    font-size: 50px;
+    line-height: 1.1;
+}
+
+.aboutSectionItem1_2_Paragraph {
+    color: #5F002B;
+    font-family: Montauk-Light;
+    font-size: 20px;
+    line-height: 1.26;
+}
+
+
+.aboutSectionItem2_1 {
+    background-color: white;
+    grid-row: 1;
+    grid-column: 1/spans;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutSectionItem2_1 * {
+    color: #5F002B;
+    font-size: 30px;
+    font-family: Fugaz One;
+}
+
+.aboutSectionItem2_2-7 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutSectionItem2_2-7 .title {
+    color: #5F002B;
+    font-size: 30px;
+    font-family: Fugaz One;
+    padding: 0px 30px;
+    padding-top: 13px;
+}
+
+.aboutSectionItem2_2-7 .description {
+    color: #5F002B;
+    font-size: 20px;
+    font-family: Montauk-Light;
+    line-height: 1.1;
+    padding: 0px 30px;
+}
+
+
+/*Catering Sections*/
+
+.cateringHeader {
+    background-color: white;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cateringHeader * {
+    color: #5F002B;
+    font-size: 50px;
+    font-family: Fugaz One;
+}
+
+.cateringMain .description .title {
+
+    color: #5F002B;
+    font-size: 30px;
+    line-height: 1.46;
+    font-family: Fugaz One;
+}
+
+.cateringMain .description .paragraph {
+    color: #5F002B;
+    font-size: 20px;
+    line-height: 1.1;
+    font-family: Montauk-Light;
+}
+
+
+.cateringGallery * {
+    width: 100%;
+    overflow: hidden;
+}
