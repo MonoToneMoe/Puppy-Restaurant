@@ -15,4 +15,6 @@
 - Catering Text is a little jarring when shrunk to mobile. (might not be fixable due to the large amount of text)
 - Photos should not have a gray ring on the border
 
+(footer and photos issue's fixed)
+
 
