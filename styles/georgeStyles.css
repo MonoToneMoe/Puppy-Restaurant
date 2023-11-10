@@ -1,0 +1,75 @@
+@font-face { font-family:Fugaz One; src: url("../fonts/FugazOne-Regular.ttf"); }
+@font-face { font-family:Montauk-Regular; src: url("../fonts/Montauk-Light.otf"); }
+
+.header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 55.56vh;
+    background-image: url(../assets/homeHero.jpg);
+    background-size: cover;
+  }
+  .photos{
+    display: grid;
+    grid-template-rows: 80px;
+}
+
+.photosHeader{
+    background-color: white;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photosHeader * {
+    color: #5F002B;
+    font-size: 50px;
+    font-family: Fugaz One;
+}
+
+@media only screen and (max-width: 991px) {
+    .header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 25vh;
+    background-image: url(../assets/homeHero.jpg);
+    background-size: cover;
+    }
+
+    .photo-card-md {
+        width: 298.5px; 
+        border-radius: 0; 
+        margin: auto; 
+        float: none; 
+        margin-bottom: 0.75rem;
+    }
+    .mSG-md {
+        font-size: 40px; font-family:Fugaz One; color: #5F002B;
+      }
+    .ct {
+        font-size: 2vw; font-family:Montauk-light; color: #5F002B; margin-bottom: 3rem;
+    }
+  }
+  @media only screen and (min-width: 991px) {
+  .photo-card {
+    width: 398px; border-radius: 0; margin: auto; float: none; margin-bottom: 0.75rem;
+  }
+  .mSG {
+    font-size: 50px; font-family:Fugaz One; color: #5F002B;
+  }
+  .card-body {
+    margin-left: 2.5rem; margin-right: 2.5rem;
+  }
+  .ct {
+    font-size: 1vw; font-family:Montauk-light; color: #5F002B; margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+    .mSG-sm {
+        font-size: 20px; font-family:Fugaz One; color: #5F002B;
+      }
+      .ct {
+        font-size: 3vw; font-family:Montauk-light; color: #5F002B; margin-bottom: 3rem;
+      }
+}
