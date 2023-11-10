@@ -158,8 +158,141 @@ body {
 /* -------------------------------------------------------------------------------- */
 /* George CSS Goes Here */
 
+.header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 55.56vh;
+    background-image: url(../assets/homeHero.jpg);
+    background-size: cover;
+  }
+  .photos{
+    display: grid;
+    grid-template-rows: 80px;
+}
+
+.photosHeader{
+    background-color: white;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photosHeader * {
+    color: #5F002B;
+    font-size: 50px;
+    font-family: Fugaz One;
+}
+
+@media only screen and (max-width: 991px) {
+    .header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 25vh;
+    background-image: url(../assets/homeHero.jpg);
+    background-size: cover;
+    }
+
+    .photo-card-md {
+        width: 298.5px; 
+        border-radius: 0; 
+        margin: auto; 
+        float: none; 
+        margin-bottom: 0.75rem;
+    }
+    .mSG-md {
+        font-size: 40px; font-family:Fugaz One; color: #5F002B;
+      }
+    .ct {
+        font-size: 2vw; font-family:Montauk-light; color: #5F002B; margin-bottom: 3rem;
+    }
+  }
+  @media only screen and (min-width: 991px) {
+  .photo-card {
+    width: 398px; border-radius: 0; margin: auto; float: none; margin-bottom: 0.75rem;
+  }
+  .mSG {
+    font-size: 50px; font-family:Fugaz One; color: #5F002B;
+  }
+  .card-body {
+    margin-left: 2.5rem; margin-right: 2.5rem;
+  }
+  .ct {
+    font-size: 1vw; font-family:Montauk-light; color: #5F002B; margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+    .mSG-sm {
+        font-size: 20px; font-family:Fugaz One; color: #5F002B;
+      }
+      .ct {
+        font-size: 3vw; font-family:Montauk-light; color: #5F002B; margin-bottom: 3rem;
+      }
+}
+
 /* -------------------------------------------------------------------------------- */
 /* Treece's CSS Goes Here */
+
+.bkGround {
+    padding: 0%;
+    margin: 0%;
+    background-color: white;
+}
+
+.txtColor {
+    color: #5F002B;
+    font-family: Fugaz One, sans-serif;
+}
+
+.fntName {
+    color: #5F002B;
+    font-family: Montauk, sans-serif;
+    font-size: 20px;
+}
+
+.font {
+    color: #5F002B;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 16px 1fr;
+    grid-template-rows: 250px 677px 20px 250px 677px;
+    padding: 0px 7.3% ;
+}
+
+.menu .photo1{
+    grid-row: 1;
+    grid-column: 1;
+    width: 100%;
+}
+
+.menu .header * {
+    color: #5F002B;
+    font-size: 50px;
+    font-family: Fugaz One;
+}
+
+.edges {
+    border-radius: 0px;
+    border: 0px;
+}
+
+.subtitle{
+    color: #5F002B;
+    font-size: 10px;
+    font-family: Montauk-Regular;
+    line-height: 20px;
+}
+
+
+.foodItemAndPrice{
+    color: #5F002B;
+    font-size: 17px;
+    font-family: Montauk-Regular;
+    line-height: 20px;
+}
 
 /* -------------------------------------------------------------------------------- */
 /* Joseph's CSS Goes Here */
